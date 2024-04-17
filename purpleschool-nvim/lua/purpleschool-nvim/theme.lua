@@ -1,5 +1,5 @@
 
-local c = require('purpleschool.palette')
+local c = require('purpleschool-nvim.palette')
 
 local hl = vim.api.nvim_set_hl
 local theme = {}

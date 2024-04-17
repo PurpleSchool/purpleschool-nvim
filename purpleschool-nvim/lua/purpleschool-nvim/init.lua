@@ -1,5 +1,5 @@
 local M = {}
-local theme = require('purpleschool.theme')
+local theme = require('purpleschool-nvim.theme')
 
 M.setup = function()
   vim.cmd('hi clear')
@@ -10,7 +10,7 @@ M.setup = function()
   end
 
   vim.o.termguicolors = true
-  vim.g.colors_name = 'purpleschool'
+  vim.g.colors_name = 'purpleschool-nvim'
 
   theme.set_highlights()
 end
