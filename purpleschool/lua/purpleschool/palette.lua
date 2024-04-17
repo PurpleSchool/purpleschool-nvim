@@ -1,0 +1,28 @@
+local colors = {
+  fg = "#fafafa",
+  bg = "#101114",
+  fg_inactive = "#AFB2BF",
+  Color11 = "#101114",
+  Color14 = "#FAFAFA",
+  Color13 = "#16171D",
+  Color16 = "#1c342a",
+  Color12 = "#62646e",
+  Color10 = "#FF7135",
+  Color0 = "#b7d175",
+  Color8 = "#A95EFF",
+  Color15 = "#302153",
+  Color3 = "#28A9FF",
+  Color20 = "#8c8f9c",
+  Color18 = "#404146",
+  Color19 = "#4D5064",
+  Color7 = "#42DD76",
+  Color5 = "#585669",
+  Color2 = "#D62C2C",
+  Color9 = "#FF478D",
+  Color4 = "#FFB638",
+  Color6 = "#14E5D4",
+  Color17 = "#321a1f",
+  Color1 = "#524f66",
+}
+
+return colors
