@@ -30,7 +30,7 @@
  Color1 = '#524f66'
 
  [highlights]
- Normal = 'Color13 Color14'
+ Normal = 'Color14 Color13'
  MsgArea = 'fg bg'
  ModeMsg = 'fg bg'
  MsgSeparator = 'fg bg'

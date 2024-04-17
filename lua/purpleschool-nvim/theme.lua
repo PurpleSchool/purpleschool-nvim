@@ -7,7 +7,7 @@ local theme = {}
 theme.set_highlights = function()
 
   -- highlights
-  hl(0, "Normal", { fg = c.Color13, bg = c.Color14 })
+  hl(0, "Normal", { fg = c.Color14, bg = c.Color13 })
   hl(0, "MsgArea", { fg = c.fg, bg = c.bg })
   hl(0, "ModeMsg", { fg = c.fg, bg = c.bg })
   hl(0, "MsgSeparator", { fg = c.fg, bg = c.bg })
