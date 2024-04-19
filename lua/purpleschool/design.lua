@@ -5,25 +5,25 @@ local M = {}
 ---@type table
 M.scheme = {
 	-- Main backgrounds
-	background = '#1f1f19',
-	secondary_background = '#1d2026',
-	ui_bg = '#1a1a18', -- background for ui (floating windows)
-	sidebar_bg = '#1a1a18', -- background for file tree and other sidebars. same as ui_bg
-	telescope_bg = '#181816', -- Slightly darker than ui_bg
-	winbar_bg = '#27271e',
+	background = '#101114',
+	secondary_background = '#101114',
+	ui_bg = '#101114', -- background for ui (floating windows)
+	sidebar_bg = '#101114', -- background for file tree and other sidebars. same as ui_bg
+	telescope_bg = '#16171D', -- Slightly darker than ui_bg
+	winbar_bg = '#16171D',
 	ui_title_fg = '#e6db74', -- same as `yellow`
 	-- Base colors
-	white = '#f8f8f0',
+	white = '#fafafa',
 	grey = '#8F908A',
-	dark_grey = '#8a8b85',
+	dark_grey = '#62646e',
 	black = '#000000',
 	green = '#a6e22e',
 	aqua = '#66d9ef',
 	dimmed_aqua = '#4a7d87',
 	yellow = '#e6db74',
 	orange = '#fd971f',
-	purple = '#ae81ff',
-	red = '#e95678',
+	purple = '#a95eff',
+	red = '#D62C2C',
 	light_red = '#f92672',
 	dark_pink = '#e878d2',
 	teal = '#3ae0b4',
@@ -77,12 +77,12 @@ M.scheme = {
 	},
 
 	buffer_line = {
-		bg = '#171712',
+		bg = '#16171D',
 		fg = '#9ca0a4',
 		selected_bg = '#1f1f19',
-		selected_fg = '#f8f8f0',
+		selected_fg = '#fafafa',
 		visible_fg = '#b3ab60',
-		visible_bg = '#171712', -- same as bg
+		visible_bg = '#16171D', -- same as bg
 	},
 }
 
